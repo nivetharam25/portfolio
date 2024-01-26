@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*-----TopBar section-----*/
+
+.container-fluid {
+    box-shadow: 0 3px 6px rgba(61, 61, 61, 0.12), 0 2px 3px rgba(160, 159, 159, 0.24);
+}
+
+
+/*--------Hero section----*/
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 239, 239);
+    font-size: 50px;
+}
+
+h2 {
+    color: rgb(41, 39, 39);
+}
+
+img {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px rgba(85, 68, 68, 0.12), 0 2px 3px rgba(240, 202, 202, 0.24);
+}
+
+#hero {
+    background: url("https://img.freepik.com/free-vector/worldwide-connection-blue-background-illustration-vector_53876-61764.jpg?size=626&ext=jpg&ga=GA1.2.579591435.1627862400");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.edu span {
+    font-size: 100px;
+    padding: 10px;
+    color: black;
+}
+
+#design {
+    font-size: 15px;
+}
+
+#design>h3 {
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(58, 58, 58);
+}
+
+#design>p {
+    font-size: 20px;
+    padding-top: 5px;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4d4b4b;
+}
+
+
+/*------Education section----*/
+
+#education {
+    padding: 60px;
+    background-image: url("https://i.pinimg.com/originals/62/02/2b/62022b20e22d6a1aa7133503122c8bb1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#skill {
+    margin-top: 0px;
+    place-items: center;
+    place-items: center;
+    padding: 10px;
+}
+
+.progress {
+    margin-top: 10px;
+    height: 25px;
+    background-color: darkgrey;
+}
+
+.progress-bar {
+    color: white;
+    background-color: rgb(51, 50, 50);
+}
+
+
+/*----About section---*/
+
+#About {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+#About h1 {
+    color: white;
+}
+
+#heading {
+    font-weight: bolder;
+    padding: 15px;
+}
+
+#para {
+    padding: 40px;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 35px;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.section {
+    place-items: justify;
+    padding: 20px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+}
+
+span {
+    color: #676767;
+    font-size: 15px;
+}
+
+
+/*-----contact-----*/
+
+#contact {
+    background-color: black;
+    padding-left: 100px;
+}
+
+#contact h2 {
+    color: white;
+    padding-left: 8px;
+}
+
+.cont {
+    padding: 10px;
+}
+
+.btn {
+    background-color: rgb(49, 48, 48);
+    outline: none;
+    color: white;
+}
+
+.button {
+    padding-top: 50px;
+}
+
+
+/*-------footer----*/
+
+.footer {
+    background-color: black;
+    display: grid;
+    grid-template-rows: repeat(4, 10px);
+    grid-gap: 15px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.fa {
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: 0 0 7px white;
+    background-color: blue;
+    color: black;
+}
+
+.fa:hover {
+    background-color: darkgreen;
+    color: black;
+}
+
+.nav a {
+    outline: none;
+    text-decoration: none;
+}
